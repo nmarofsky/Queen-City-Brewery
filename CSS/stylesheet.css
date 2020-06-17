@@ -1,0 +1,97 @@
+body {
+	font-family: 'Noto Sans',
+	sans-serif;
+	background: #f8df9a;
+	color: #001f3f;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.jumbotron {
+    background: url("/img/daniel-weiss-charlotte-skyline.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 55px;
+}
+
+.navbar {
+    background-color: transparent;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.project-image{
+	border-radius: 5px;
+	box-shadow: 0 4px 6px 0 rgba (34, 60, 80, .16);
+	transition: all ease-in-out .1s;
+}
+
+.project-image:hover {
+	filter: brightness(.75);
+	box-shadow: 0 8px 12px 0 rgba(34,60, 80, .16);
+}
+
+.project-image-wrapper {
+	justify-self: center;
+	padding: 4%;
+	position: relative;
+}
+
+.project-image-wrapper:hover > h2 {
+	visibility: visible;
+	box-shadow: 0 8px 12px 0 rgba(34,60, 80, .16);
+}
+
+.project-image-wrapper > h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(5, 5, 5);
+	visibility: hidden;
+	z-index: 2;
+	transition: all ease-in-out .1s;
+}
+
+.carousel {
+	border: solid #080808; }
+  
+  .carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5); }
+  
+  #carouselButton {
+	position: absolute;
+	right: 0;
+	bottom: 0; }
+
+	.project-image-wrapper:hover > h1 {
+		visibility: visible;
+	}
+	
+	.project-image-wrapper > h1 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: rgb(241, 239, 239);
+		visibility: hidden;
+		z-index: 2;
+		transition: all ease-in-out .1s;
+	}
+
+	.profile-picture {
+		border-radius: 50%;
+		width: 300px;
+		height: 300px;
+		box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+		transition: all ease-in-out .2s;
+	}
+	
+	.profile-picture:hover {
+		box-shadow: 0 8px 12px 0 rgba (34, 60, 80, .16);
+	}
